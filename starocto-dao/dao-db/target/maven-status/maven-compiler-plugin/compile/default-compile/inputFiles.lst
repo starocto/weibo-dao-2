@@ -1,0 +1,9 @@
+/Users/starocto-dir/git-starocto/weibo-dao-2/starocto-dao/dao-db/src/main/java/com/starocto/dao/db/model/UserOthersDO.java
+/Users/starocto-dir/git-starocto/weibo-dao-2/starocto-dao/dao-db/src/main/java/com/starocto/dao/db/mapper/WeiboDataMapper.java
+/Users/starocto-dir/git-starocto/weibo-dao-2/starocto-dao/dao-db/src/main/java/com/starocto/dao/db/util/SqlSessionFactoryUtil.java
+/Users/starocto-dir/git-starocto/weibo-dao-2/starocto-dao/dao-db/src/main/java/com/starocto/dao/db/model/BlogCountDO.java
+/Users/starocto-dir/git-starocto/weibo-dao-2/starocto-dao/dao-db/src/main/java/com/starocto/dao/db/model/UserRegisterInfoDO.java
+/Users/starocto-dir/git-starocto/weibo-dao-2/starocto-dao/dao-db/src/main/java/com/starocto/dao/db/model/UserInfoDO.java
+/Users/starocto-dir/git-starocto/weibo-dao-2/starocto-dao/dao-db/src/main/java/com/starocto/dao/db/model/UserFollowDO.java
+/Users/starocto-dir/git-starocto/weibo-dao-2/starocto-dao/dao-db/src/main/java/com/starocto/dao/db/model/BlogInfoDO.java
+/Users/starocto-dir/git-starocto/weibo-dao-2/starocto-dao/dao-db/src/main/java/com/starocto/dao/db/model/CommentToBlogDO.java
