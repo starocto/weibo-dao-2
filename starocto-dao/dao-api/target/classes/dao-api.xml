@@ -6,6 +6,17 @@
 
 
     <!--配置thrift-->
+    <bean class="com.starocto.dao.api.rpc.RpcClientConfig"/>
+
+    <!-- 客户端   调用服务端rmi服务配置-->
+    <bean id="weiboQueryServiceImpl" class="org.springframework.remoting.rmi.RmiProxyFactoryBean">
+        <!--调用服务端url以及serviceName -->
+        <property name="serviceUrl" value="rmi://:2099/weiboQueryServiceImpl"/>
+        <!-- 调用服务端的接口 -->
+        <property name="serviceInterface" value="com.starocto.dao.api.service.WeiboQueryService"/>
+
+    </bean>
+
 
 
 </beans>

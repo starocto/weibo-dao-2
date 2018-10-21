@@ -2,6 +2,7 @@ package com.starocto.dao.api.model.resp;
 
 import lombok.Data;
 
+import java.io.Serializable;
 import java.util.Date;
 
 /**
@@ -12,7 +13,10 @@ import java.util.Date;
  * Desc   : 消息评论（微博消息的一条评论）
  */
 @Data
-public class CommentToBlogResp {
+public class CommentToBlogResp implements Serializable {
+
+    private static final long serialVersionUID = -1L;
+
     private long commentId;
     private long blogId;
     private long frontCommentId;
