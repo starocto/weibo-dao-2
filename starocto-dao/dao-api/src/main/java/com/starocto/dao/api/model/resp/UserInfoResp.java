@@ -2,6 +2,8 @@ package com.starocto.dao.api.model.resp;
 
 import lombok.Data;
 
+import java.io.Serializable;
+
 /**
  * Author : zjx@.com
  * Date   : 2018/10/3
@@ -10,7 +12,10 @@ import lombok.Data;
  * Desc   : 用户的简介相关信息
  */
 @Data
-public class UserInfoResp {
+public class UserInfoResp implements Serializable {
+
+    private static final long serialVersionUID = -1L;
+
     private int userId;
     /**
      * true:女 false:男

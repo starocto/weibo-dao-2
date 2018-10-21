@@ -7,7 +7,25 @@
        http://www.springframework.org/schema/context
        http://www.springframework.org/schema/context/spring-context-3.2.xsd">
 
+
     <context:annotation-config/>
     <context:component-scan base-package="com.starocto.dao.server"/>
+
+    <!--<bean class="com.starocto.dao.server.rpc.RpcServerConfig"/>-->
+    <!--<bean id="testSpringRMI" class="com.rmi.server.ServerImpl"/>-->
+
+    <!-- 服务端  配置rmi服务发布 -->
+    <bean id="rmiServiceExporter" class="org.springframework.remoting.rmi.RmiServiceExporter">
+        <!-- 配置service -->
+        <property name="service" ref="weiboQueryServiceImpl"/>
+        <!-- 客户端使用的serviceName -->
+        <property name="serviceName" value="weiboQueryServiceImpl"/>
+        <!-- 服务接口 -->
+        <property name="serviceInterface" value="com.starocto.dao.api.service.WeiboQueryService"/>
+
+        <!-- 注册服务端口号，默认是1099 -->
+        <property name="registryPort" value="2099"/>
+
+    </bean>
 
 </beans>

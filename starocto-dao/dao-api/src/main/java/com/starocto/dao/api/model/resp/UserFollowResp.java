@@ -2,6 +2,7 @@ package com.starocto.dao.api.model.resp;
 
 import lombok.Data;
 
+import java.io.Serializable;
 import java.util.Date;
 
 /**
@@ -12,7 +13,10 @@ import java.util.Date;
  * Desc   : 用户的关注人的信息
  */
 @Data
-public class UserFollowResp {
+public class UserFollowResp implements Serializable {
+
+    private static final long serialVersionUID = -1L;
+
     private int followId;
     private int userId;
     private int followUserId;

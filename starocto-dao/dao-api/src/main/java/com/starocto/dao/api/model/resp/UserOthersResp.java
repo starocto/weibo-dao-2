@@ -2,6 +2,7 @@ package com.starocto.dao.api.model.resp;
 
 import lombok.Data;
 
+import java.io.Serializable;
 import java.util.Date;
 
 /**
@@ -12,7 +13,10 @@ import java.util.Date;
  * Desc   : 用户的生产消费消息相关信息
  */
 @Data
-public class UserOthersResp {
+public class UserOthersResp implements Serializable {
+
+    private static final long serialVersionUID = -1L;
+
     private int userId;
     private int blogProduceRate;
     private Date blogConsumeTime;

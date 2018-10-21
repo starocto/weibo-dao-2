@@ -5,4 +5,6 @@
 /Users/starocto-dir/git-starocto/weibo-dao-2/starocto-dao/dao-api/src/main/java/com/starocto/dao/api/model/resp/BlogCountResp.java
 /Users/starocto-dir/git-starocto/weibo-dao-2/starocto-dao/dao-api/src/main/java/com/starocto/dao/api/model/resp/UserOthersResp.java
 /Users/starocto-dir/git-starocto/weibo-dao-2/starocto-dao/dao-api/src/main/java/com/starocto/dao/api/model/resp/UserFollowResp.java
+/Users/starocto-dir/git-starocto/weibo-dao-2/starocto-dao/dao-api/src/main/java/com/starocto/dao/api/test/TestMain.java
+/Users/starocto-dir/git-starocto/weibo-dao-2/starocto-dao/dao-api/src/main/java/com/starocto/dao/api/rpc/RpcClientConfig.java
 /Users/starocto-dir/git-starocto/weibo-dao-2/starocto-dao/dao-api/src/main/java/com/starocto/dao/api/service/WeiboQueryService.java
