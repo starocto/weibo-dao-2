@@ -30,6 +30,12 @@ public class WeiboQueryController {
     }
 
     @ResponseBody
+    @RequestMapping(value = "/dao/user/register", method = RequestMethod.GET)
+    public UserRegisterInfoResp queryUserRegisterInfo(){
+        return weiboQueryService.queryUserRegisterInfo("fuermoxun");
+    }
+
+    @ResponseBody
     @RequestMapping(value = "/dao/user/others", method = RequestMethod.GET)
     public UserOthersResp queryUserOthers(){
         return weiboQueryService.queryUserOthers(1);
