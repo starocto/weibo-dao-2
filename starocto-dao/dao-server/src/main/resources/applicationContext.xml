@@ -11,9 +11,6 @@
     <context:annotation-config/>
     <context:component-scan base-package="com.starocto.dao.server"/>
 
-    <!--<bean class="com.starocto.dao.server.rpc.RpcServerConfig"/>-->
-    <!--<bean id="testSpringRMI" class="com.rmi.server.ServerImpl"/>-->
-
     <!-- 服务端  配置rmi服务发布 -->
     <bean id="rmiServiceExporter" class="org.springframework.remoting.rmi.RmiServiceExporter">
         <!-- 配置service -->
