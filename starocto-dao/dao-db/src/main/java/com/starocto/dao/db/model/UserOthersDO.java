@@ -2,7 +2,7 @@ package com.starocto.dao.db.model;
 
 import lombok.Data;
 
-import java.util.Date;
+import java.sql.Date;
 
 /**
  * Author : zjx@.com

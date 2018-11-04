@@ -1,3 +1,2 @@
 com/starocto/dao/server/thrift/WeiboQueryServiceImpl.class
 com/starocto/dao/server/controller/WeiboQueryController.class
-com/starocto/dao/server/rpc/RpcServerConfig.class

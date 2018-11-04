@@ -2,6 +2,8 @@ package com.starocto.dao.db.model;
 
 import lombok.Data;
 
+import java.sql.Date;
+
 /**
  * Author : zjx@.com
  * Date   : 2018/10/3
@@ -16,6 +18,6 @@ public class UserRegisterInfoDO {
     private String userPsw;
     private String userPhone;
     private String userEmail;
-    private String userRegisterTime;
-    private String userChangeTime;
+    private Date userRegisterTime;
+    private Date userChangeTime;
 }

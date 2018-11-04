@@ -1,16 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
 <mapper namespace="com.starocto.dao.db.mapper.WeiboDataMapper">
-
-    <resultMap id="map_userregister" type="com.starocto.dao.db.model.UserRegisterInfoDO">
-        <result property="userId" column="user_id"/>
-        <result property="userName" column="user_name"/>
-        <result property="userPsw" column="user_psw"/>
-        <result property="userPhone" column="user_phone"/>
-        <result property="userEmail" column="user_email"/>
-        <result property="userRegisterTime" column="user_register_time"/>
-        <result property="userChangeTime" column="user_change_time"/>
-    </resultMap>
 
     <sql id="t1_user_register_info">
         user_register_info
@@ -34,7 +26,7 @@
         </foreach>
     </insert>
 
-    <select id="selectUserRegisterInfoDO" resultType="com.starocto.dao.db.model.UserRegisterInfoDO" resultMap="map_userregister">
+    <select id="selectUserRegisterInfoDO" resultType="com.starocto.dao.db.model.UserRegisterInfoDO">
         SELECT
         <include refid="t1_all_field"/>
         FROM
@@ -44,12 +36,6 @@
         </where>
     </select>
 
-
-    <resultMap id="map_userothers" type="com.starocto.dao.db.model.UserOthersDO">
-        <result property="userId" column="user_id"/>
-        <result property="blogProduceRate" column="blog_produce_rate"/>
-        <result property="blogConsumeTime" column="blog_consume_time"/>
-    </resultMap>
 
     <sql id="t2_user_others">
         user_others
@@ -69,7 +55,7 @@
         </foreach>
     </insert>
 
-    <select id="selectUserOthersDO" resultType="com.starocto.dao.db.model.UserOthersDO" resultMap="map_userothers">
+    <select id="selectUserOthersDO" resultType="com.starocto.dao.db.model.UserOthersDO">
         SELECT
         <include refid="t2_all_field"/>
         FROM
@@ -79,18 +65,6 @@
         </where>
     </select>
 
-
-    <resultMap id="map_userinfo" type="com.starocto.dao.db.model.UserInfoDO">
-        <result property="userId" column="user_id"/>
-        <result property="userSex" column="user_sex"/>
-        <result property="userBirthday" column="user_birthday"/>
-        <result property="userEmotion" column="user_emotion"/>
-        <result property="userPosition" column="user_position"/>
-        <result property="userHometown" column="user_hometown"/>
-        <result property="userUniversity" column="user_university"/>
-        <result property="userCompany" column="user_company"/>
-        <result property="userSignature" column="user_signature"/>
-    </resultMap>
 
     <sql id="t3_user_info">
         user_info
@@ -112,7 +86,7 @@
         </foreach>
     </insert>
 
-    <select id="selectUserInfoDO" resultType="com.starocto.dao.db.model.UserInfoDO" resultMap="map_userinfo">
+    <select id="selectUserInfoDO" resultType="com.starocto.dao.db.model.UserInfoDO">
         SELECT
         <include refid="t3_all_field"/>
         FROM
@@ -122,14 +96,6 @@
         </where>
     </select>
 
-
-    <resultMap id="map_userfollow" type="com.starocto.dao.db.model.UserFollowDO">
-        <result property="followId" column="follow_id"/>
-        <result property="userId" column="user_id"/>
-        <result property="followUserId" column="follow_user_id"/>
-        <result property="followIsFriend" column="follow_is_friend"/>
-        <result property="followTime" column="follow_time"/>
-    </resultMap>
 
     <sql id="t4_user_follow">
         user_follow
@@ -152,7 +118,7 @@
         </foreach>
     </insert>
 
-    <select id="selectUserFollowDO" resultType="com.starocto.dao.db.model.UserFollowDO" resultMap="map_userfollow">
+    <select id="selectUserFollowDO" resultType="com.starocto.dao.db.model.UserFollowDO">
         SELECT
         <include refid="t4_all_field"/>
         FROM
@@ -161,7 +127,7 @@
             user_id = #{userId}
         </where>
     </select>
-    <select id="selectFansDO" resultType="com.starocto.dao.db.model.UserFollowDO" resultMap="map_userfollow">
+    <select id="selectFansDO" resultType="com.starocto.dao.db.model.UserFollowDO">
         SELECT
         <include refid="t4_all_field"/>
         FROM
@@ -171,18 +137,6 @@
         </where>
     </select>
 
-
-    <resultMap id="map_bloginfo" type="com.starocto.dao.db.model.BlogInfoDO">
-        <result property="blogId" column="blog_id"/>
-        <result property="userId" column="user_id"/>
-        <result property="blogType" column="blog_type"/>
-        <result property="blogContentText" column="blog_content_text"/>
-        <result property="blogImageUrl" column="blog_image_url"/>
-        <result property="blogVideoUrl" column="blog_video_url"/>
-        <result property="blogIsOriginal" column="blog_is_original"/>
-        <result property="blogOriginalId" column="blog_original_id"/>
-        <result property="blogPlusTime" column="blog_plus_time"/>
-    </resultMap>
 
     <sql id="t5_blog_info">
         blog_info
@@ -206,7 +160,7 @@
         </foreach>
     </insert>
 
-    <select id="selectBlogInfoDO" resultType="com.starocto.dao.db.model.BlogInfoDO" resultMap="map_bloginfo">
+    <select id="selectBlogInfoDO" resultType="com.starocto.dao.db.model.BlogInfoDO">
         SELECT
         <include refid="t5_all_field"/>
         FROM
@@ -216,14 +170,6 @@
         </where>
     </select>
 
-
-    <resultMap id="map_blogcount" type="com.starocto.dao.db.model.BlogCountDO">
-        <result property="blogId" column="blog_id"/>
-        <result property="blogSeeNum" column="blog_see_num"/>
-        <result property="blogLikeNum" column="blog_like_num"/>
-        <result property="blogForwardNum" column="blog_forward_num"/>
-        <result property="blogCommentNum" column="blog_comment_num"/>
-    </resultMap>
 
     <sql id="t6_blog_count">
         blog_count
@@ -243,7 +189,7 @@
         </foreach>
     </insert>
 
-    <select id="selectBlogCountDO" resultType="com.starocto.dao.db.model.BlogCountDO" resultMap="map_blogcount">
+    <select id="selectBlogCountDO" resultType="com.starocto.dao.db.model.BlogCountDO">
         SELECT
         <include refid="t6_all_field"/>
         FROM
@@ -253,16 +199,6 @@
         </where>
     </select>
 
-
-    <resultMap id="map_commenttoblog" type="com.starocto.dao.db.model.CommentToBlogDO">
-        <result property="commentId" column="comment_id"/>
-        <result property="blogId" column="blog_id"/>
-        <result property="frontCommentId" column="front_comment_id"/>
-        <result property="userId" column="user_id"/>
-        <result property="frontUserId" column="front_user_id"/>
-        <result property="commentContent" column="comment_content"/>
-        <result property="commentTime" column="comment_time"/>
-    </resultMap>
 
     <sql id="t7_comment_to_blog">
         comment_to_blog
@@ -286,7 +222,7 @@
         </foreach>
     </insert>
 
-    <select id="selectCommentToBlogDO" resultType="com.starocto.dao.db.model.CommentToBlogDO" resultMap="map_commenttoblog">
+    <select id="selectCommentToBlogDO" resultType="com.starocto.dao.db.model.CommentToBlogDO">
         SELECT
         <include refid="t7_all_field"/>
         FROM
@@ -295,6 +231,5 @@
             blog_id = #{blogId}
         </where>
     </select>
-
 
 </mapper>
