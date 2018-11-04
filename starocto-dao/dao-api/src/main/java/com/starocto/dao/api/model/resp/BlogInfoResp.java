@@ -3,7 +3,6 @@ package com.starocto.dao.api.model.resp;
 import lombok.Data;
 
 import java.io.Serializable;
-import java.util.Date;
 
 /**
  * Author : zjx@.com
@@ -28,5 +27,5 @@ public class BlogInfoResp implements Serializable {
     private String blogVideoUrl;
     private boolean blogIsOriginal;
     private long blogOriginalId;
-    private Date blogPlusTime;
+    private String blogPlusTime;
 }

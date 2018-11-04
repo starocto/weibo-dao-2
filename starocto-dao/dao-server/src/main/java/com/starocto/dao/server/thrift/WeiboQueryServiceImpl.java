@@ -6,7 +6,7 @@ import com.starocto.dao.api.service.WeiboQueryService;
 import com.starocto.dao.common.utils.BeanUtils;
 import com.starocto.dao.db.mapper.WeiboDataMapper;
 import com.starocto.dao.db.model.*;
-import com.starocto.dao.db.util.SqlSessionFactoryUtil;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -22,7 +22,8 @@ import java.util.stream.Collectors;
 @Service
 public class WeiboQueryServiceImpl implements WeiboQueryService {
 
-    private WeiboDataMapper weiboDataMapper = SqlSessionFactoryUtil.getDataMapper();
+    @Autowired
+    private WeiboDataMapper weiboDataMapper;
 
     @Override
     public BlogCountResp queryBlogCount(long blogId){
@@ -34,7 +35,11 @@ public class WeiboQueryServiceImpl implements WeiboQueryService {
     public List<BlogInfoResp> queryBlogInfo(int userId){
         List<BlogInfoDO> blogInfoDOS = weiboDataMapper.selectBlogInfoDO(userId);
         return blogInfoDOS.stream()
-                .map(e -> BeanUtils.propertiesCopy(e, new BlogInfoResp()))
+                .map(e -> {
+                    BlogInfoResp resp = BeanUtils.propertiesCopy(e, new BlogInfoResp());
+                    resp.setBlogPlusTime(e.getBlogPlusTime().toString());
+                    return resp;
+                })
                 .collect(Collectors.toList());
     }
 
@@ -42,7 +47,11 @@ public class WeiboQueryServiceImpl implements WeiboQueryService {
     public List<CommentToBlogResp> queryCommentToBlog(long blogId){
         List<CommentToBlogDO> commentToBlogDOS = weiboDataMapper.selectCommentToBlogDO(blogId);
         return commentToBlogDOS.stream()
-                .map(e -> BeanUtils.propertiesCopy(e, new CommentToBlogResp()))
+                .map(e -> {
+                    CommentToBlogResp resp = BeanUtils.propertiesCopy(e, new CommentToBlogResp());
+                    resp.setCommentTime(e.getCommentTime().toString());
+                    return resp;
+                })
                 .collect(Collectors.toList());
     }
 
@@ -50,7 +59,11 @@ public class WeiboQueryServiceImpl implements WeiboQueryService {
     public List<UserFollowResp> queryUserFollow(int userId){
         List<UserFollowDO> userFollowDOS = weiboDataMapper.selectUserFollowDO(userId);
         return userFollowDOS.stream()
-                .map(e -> BeanUtils.propertiesCopy(e, new UserFollowResp()))
+                .map(e -> {
+                    UserFollowResp resp = BeanUtils.propertiesCopy(e, new UserFollowResp());
+                    resp.setFollowTime(e.getFollowTime().toString());
+                    return resp;
+                })
                 .collect(Collectors.toList());
     }
 
@@ -58,7 +71,11 @@ public class WeiboQueryServiceImpl implements WeiboQueryService {
     public List<UserFollowResp> queryFans(int followUserId){
         List<UserFollowDO> userFollowDOS = weiboDataMapper.selectFansDO(followUserId);
         return userFollowDOS.stream()
-                .map(e -> BeanUtils.propertiesCopy(e, new UserFollowResp()))
+                .map(e -> {
+                    UserFollowResp resp = BeanUtils.propertiesCopy(e, new UserFollowResp());
+                    resp.setFollowTime(e.getFollowTime().toString());
+                    return resp;
+                })
                 .collect(Collectors.toList());
     }
 
@@ -71,12 +88,17 @@ public class WeiboQueryServiceImpl implements WeiboQueryService {
     @Override
     public UserOthersResp queryUserOthers(int userId){
         UserOthersDO userOthersDO = weiboDataMapper.selectUserOthersDO(userId);
-        return BeanUtils.propertiesCopy(userOthersDO, new UserOthersResp());
+        UserOthersResp resp = BeanUtils.propertiesCopy(userOthersDO, new UserOthersResp());
+        resp.setBlogConsumeTime(userOthersDO.getBlogConsumeTime().toString());
+        return resp;
     }
 
     @Override
     public UserRegisterInfoResp queryUserRegisterInfo(String userName){
         UserRegisterInfoDO userRegisterInfoDO = weiboDataMapper.selectUserRegisterInfoDO(userName);
-        return BeanUtils.propertiesCopy(userRegisterInfoDO, new UserRegisterInfoResp());
+        UserRegisterInfoResp resp = BeanUtils.propertiesCopy(userRegisterInfoDO, new UserRegisterInfoResp());
+        resp.setUserChangeTime(userRegisterInfoDO.getUserChangeTime().toString());
+        resp.setUserRegisterTime(userRegisterInfoDO.getUserRegisterTime().toString());
+        return resp;
     }
 }

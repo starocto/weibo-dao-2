@@ -20,17 +20,13 @@ public class BeanUtils {
         if(null == origin || null == dest){
             return null;
         }
-
         String key = origin.getClass().getName() + dest.getClass().getName();
         BeanCopier beanCopier = BEAN_COPY_MAP.get(key);
-
         if (null == beanCopier) {
             beanCopier = BeanCopier.create(origin.getClass(), dest.getClass(), false);
             BEAN_COPY_MAP.put(key, beanCopier);
         }
-
         beanCopier.copy(origin, dest, null);
         return dest;
     }
-
 }
