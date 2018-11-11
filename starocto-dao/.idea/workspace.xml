@@ -1,294 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ArtifactsWorkspaceSettings">
-    <artifacts-to-build>
-      <artifact name="dao-server:war" />
-    </artifacts-to-build>
-  </component>
   <component name="ChangeListManager">
-<<<<<<< HEAD
-    <list default="true" id="aca7a669-51ca-489d-8ae5-8694f20672c9" name="Default Changelist" comment="">
+    <list default="true" id="dabad1b8-b0ba-48cd-9e91-ad3150b3cef8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dao-api/target/dao-api.jar" beforeDir="false" afterPath="$PROJECT_DIR$/dao-api/target/dao-api.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dao-api/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/dao-api/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dao-common/target/dao-common.jar" beforeDir="false" afterPath="$PROJECT_DIR$/dao-common/target/dao-common.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dao-common/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/dao-common/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dao-db/target/dao-db.jar" beforeDir="false" afterPath="$PROJECT_DIR$/dao-db/target/dao-db.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dao-db/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/dao-db/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dao-index/target/dao-index.war" beforeDir="false" afterPath="$PROJECT_DIR$/dao-index/target/dao-index.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dao-index/target/dao-index/WEB-INF/lib/dao-api-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/dao-index/target/dao-index/WEB-INF/lib/dao-api-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dao-index/target/dao-index/WEB-INF/lib/dao-common-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/dao-index/target/dao-index/WEB-INF/lib/dao-common-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dao-index/target/dao-index/WEB-INF/lib/dao-db-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/dao-index/target/dao-index/WEB-INF/lib/dao-db-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dao-server/target/dao-server.war" beforeDir="false" afterPath="$PROJECT_DIR$/dao-server/target/dao-server.war" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dao-server/target/dao-server/WEB-INF/lib/dao-api-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/dao-server/target/dao-server/WEB-INF/lib/dao-api-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dao-server/target/dao-server/WEB-INF/lib/dao-common-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/dao-server/target/dao-server/WEB-INF/lib/dao-common-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dao-server/target/dao-server/WEB-INF/lib/dao-db-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/dao-server/target/dao-server/WEB-INF/lib/dao-db-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dao-server/target/surefire-reports/TEST-com.starocto.dao.server.service.ServerTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dao-server/target/surefire-reports/TEST-com.starocto.dao.server.service.ServerTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dao-server/target/surefire-reports/com.starocto.dao.server.service.ServerTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/dao-server/target/surefire-reports/com.starocto.dao.server.service.ServerTest.txt" afterDir="false" />
     </list>
-=======
-    <list default="true" id="aca7a669-51ca-489d-8ae5-8694f20672c9" name="Default Changelist" comment="" />
->>>>>>> 11da339211280c9a0a60e28734d1d8ca62703820
-    <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
-    <ignored path="$PROJECT_DIR$/dao-common/target/" />
-    <ignored path="$PROJECT_DIR$/dao-api/target/" />
-    <ignored path="$PROJECT_DIR$/dao-db/target/" />
-    <ignored path="$PROJECT_DIR$/dao-server/target/" />
     <ignored path="$PROJECT_DIR$/dao-index/target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <ignored path="$PROJECT_DIR$/dao-common/target/" />
+    <ignored path="$PROJECT_DIR$/dao-db/target/" />
+    <ignored path="$PROJECT_DIR$/dao-api/target/" />
+    <ignored path="$PROJECT_DIR$/dao-server/target/" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FUSProjectUsageTrigger">
-    <session id="1107342238">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="2" />
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.20" value="1" />
-          <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="3" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="java" value="75" />
-          <entry key="xml" value="232" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="75" />
-          <entry key="XML" value="232" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="java" value="23" />
-          <entry key="jsp" value="1" />
-          <entry key="xml" value="12" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="JAVA" value="23" />
-          <entry key="JSP" value="1" />
-          <entry key="XML" value="12" />
-        </counts>
-      </usages-collector>
-    </session>
-    <session id="112613644">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="2" />
-          <entry key="project.open.time.5" value="1" />
-          <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="java" value="19" />
-          <entry key="jsp" value="3" />
-          <entry key="xml" value="25" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="JAVA" value="19" />
-          <entry key="JSP" value="3" />
-          <entry key="XML" value="25" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="java" value="265" />
-          <entry key="jsp" value="4" />
-          <entry key="xml" value="206" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.spring.boot.run.usages" />
-      <usages-collector id="statistics.js.language.service.starts" />
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="265" />
-          <entry key="JSP" value="4" />
-          <entry key="XML" value="206" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.spring.boot.mvc.usages" />
-      <usages-collector id="statistics.vcs.git.usages" />
-    </session>
-    <session id="-1265922929">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="4" />
-          <entry key="project.open.time.1" value="2" />
-          <entry key="project.open.time.4" value="2" />
-          <entry key="project.open.time.6" value="1" />
-          <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="6" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="java" value="503" />
-          <entry key="properties" value="12" />
-          <entry key="xml" value="747" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="503" />
-          <entry key="Properties" value="12" />
-          <entry key="XML" value="747" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="class" value="3" />
-          <entry key="iml" value="1" />
-          <entry key="java" value="98" />
-          <entry key="jsp" value="2" />
-          <entry key="properties" value="2" />
-          <entry key="xml" value="49" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="CLASS" value="3" />
-          <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="98" />
-          <entry key="JSP" value="2" />
-          <entry key="Properties" value="2" />
-          <entry key="XML" value="49" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.js.language.service.starts" />
-      <usages-collector id="statistics.spring.boot.run.usages" />
-      <usages-collector id="statistics.spring.boot.mvc.usages" />
-      <usages-collector id="statistics.vcs.git.usages" />
-    </session>
     <session id="1172187470">
-<<<<<<< HEAD
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="2" />
-          <entry key="project.open.time.3" value="1" />
-          <entry key="project.open.time.7" value="1" />
-          <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="3" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit" />
-      <usages-collector id="statistics.vcs.git.usages" />
-      <usages-collector id="statistics.spring.boot.mvc.usages" />
-      <usages-collector id="statistics.spring.boot.run.usages" />
-      <usages-collector id="statistics.js.language.service.starts" />
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="CLASS" value="2" />
-          <entry key="JAVA" value="14" />
-          <entry key="Properties" value="1" />
-          <entry key="XML" value="17" />
-        </counts>
-      </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="2" />
-          <entry key="java" value="14" />
-          <entry key="properties" value="1" />
-          <entry key="xml" value="17" />
-        </counts>
-      </usages-collector>
-=======
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="java" value="61" />
-          <entry key="xml" value="5" />
+          <entry key="java" value="1" />
+          <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="61" />
-          <entry key="XML" value="5" />
+          <entry key="JAVA" value="1" />
+          <entry key="XML" value="1" />
         </counts>
       </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="java" value="1694" />
-          <entry key="xml" value="15" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="1694" />
-          <entry key="XML" value="15" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.spring.boot.run.usages" />
-      <usages-collector id="statistics.vcs.git.usages" />
-      <usages-collector id="statistics.spring.boot.mvc.usages" />
-      <usages-collector id="statistics.lifecycle.project" />
-      <usages-collector id="statistics.js.language.service.starts" />
->>>>>>> 11da339211280c9a0a60e28734d1d8ca62703820
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-<<<<<<< HEAD
-        <entry file="file://$PROJECT_DIR$/dao-api/src/main/resources/dao-api.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
-=======
         <entry file="file://$PROJECT_DIR$/dao-db/src/main/resources/mapper/WeiboDataMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="207">
               <caret line="63" column="58" selection-start-line="63" selection-start-column="58" selection-end-line="63" selection-end-column="58" />
->>>>>>> 11da339211280c9a0a60e28734d1d8ca62703820
             </state>
           </provider>
-        </entry>
-      </file>
-<<<<<<< HEAD
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider editor-type-id="YarmPluginDependencyAnalyzer" />
-          <provider editor-type-id="YarmPluginDependencyUpdater" />
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="27" column="60" selection-start-line="27" selection-start-column="60" selection-end-line="27" selection-end-column="60" />
-=======
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dao-api/src/main/java/com/starocto/dao/api/model/mq/CommentToBlogMQ.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
->>>>>>> 11da339211280c9a0a60e28734d1d8ca62703820
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-<<<<<<< HEAD
-        <entry file="file://$PROJECT_DIR$/dao-db/src/main/resources/db.properties">
-          <provider selected="true" editor-type-id="text-editor" />
-=======
-        <entry file="file://$PROJECT_DIR$/dao-common/src/main/java/com/starocto/dao/common/utils/DateUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
->>>>>>> 11da339211280c9a0a60e28734d1d8ca62703820
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dao-server/src/main/java/com/starocto/dao/server/controller/WeiboQueryController.java">
           <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-            <state relative-caret-position="2052">
-              <caret line="108" selection-start-line="108" selection-end-line="108" />
-=======
             <state relative-caret-position="257">
               <caret line="58" column="50" selection-start-line="58" selection-start-column="50" selection-end-line="58" selection-end-column="50" />
               <folding>
@@ -298,23 +70,15 @@
                 <element signature="e#1849#1850#0" expanded="true" />
                 <element signature="e#1906#1907#0" expanded="true" />
               </folding>
->>>>>>> 11da339211280c9a0a60e28734d1d8ca62703820
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-<<<<<<< HEAD
-        <entry file="file://$PROJECT_DIR$/dao-common/src/main/java/com/starocto/dao/common/utils/BeanUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="29" column="20" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
-=======
         <entry file="file://$PROJECT_DIR$/dao-server/src/main/java/com/starocto/dao/server/thrift/WeiboQueryServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="352">
               <caret line="96" column="18" selection-start-line="96" selection-start-column="18" selection-end-line="96" selection-end-column="18" />
->>>>>>> 11da339211280c9a0a60e28734d1d8ca62703820
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -323,12 +87,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-<<<<<<< HEAD
-        <entry file="file://$PROJECT_DIR$/dao-server/src/main/resources/spring-servlet.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="69" selection-start-line="14" selection-start-column="69" selection-end-line="14" selection-end-column="69" />
-=======
         <entry file="file://$PROJECT_DIR$/dao-api/src/main/java/com/starocto/dao/api/model/resp/UserOthersResp.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="266">
@@ -336,26 +94,6 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
->>>>>>> 11da339211280c9a0a60e28734d1d8ca62703820
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-<<<<<<< HEAD
-        <entry file="file://$PROJECT_DIR$/dao-db/src/main/resources/mybatis-config.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
-=======
-        <entry file="file://$PROJECT_DIR$/dao-index/src/main/java/com/starocto/dao/index/service/WeiboIndexService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="417">
-              <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
->>>>>>> 11da339211280c9a0a60e28734d1d8ca62703820
             </state>
           </provider>
         </entry>
@@ -363,13 +101,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dao-server/src/test/java/com/starocto/dao/server/service/ServerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-            <state relative-caret-position="228">
-              <caret line="20" column="39" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
-=======
-            <state relative-caret-position="634">
+            <state relative-caret-position="519">
               <caret line="51" selection-start-line="51" selection-end-line="51" />
->>>>>>> 11da339211280c9a0a60e28734d1d8ca62703820
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -378,52 +111,15 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-<<<<<<< HEAD
-        <entry file="file://$PROJECT_DIR$/dao-server/src/main/webapp/WEB-INF/web.xml">
+        <entry file="file://$PROJECT_DIR$/dao-common/src/main/java/com/starocto/dao/common/utils/DateUtils.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="209">
-              <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
-=======
-        <entry file="file://$PROJECT_DIR$/dao-api/src/main/java/com/starocto/dao/api/model/resp/BlogInfoListResp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
->>>>>>> 11da339211280c9a0a60e28734d1d8ca62703820
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/dao-index/src/main/java/com/starocto/dao/index/service/impl/WeiboIndexServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-            <state relative-caret-position="399">
-              <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
-=======
-            <state relative-caret-position="223">
-              <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#indexBlogInfoDO#0;class#WeiboIndexServiceImpl#0" />
-                <element signature="method#indexCommentToBlogDO#0;class#WeiboIndexServiceImpl#0" />
-                <element signature="method#indexUserOthersDO#0;class#WeiboIndexServiceImpl#0" />
-                <element signature="method#indexUserRegisterInfoDO#0;class#WeiboIndexServiceImpl#0" />
-              </folding>
->>>>>>> 11da339211280c9a0a60e28734d1d8ca62703820
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-<<<<<<< HEAD
-        <entry file="file://$PROJECT_DIR$/dao-db/src/main/java/com/starocto/dao/db/model/BlogCountDO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
-=======
         <entry file="file://$PROJECT_DIR$/dao-db/src/main/java/com/starocto/dao/db/model/CommentToBlogDO.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="399">
@@ -431,61 +127,15 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
->>>>>>> 11da339211280c9a0a60e28734d1d8ca62703820
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-<<<<<<< HEAD
-        <entry file="file://$PROJECT_DIR$/dao-api/src/main/java/com/starocto/dao/api/test/TestMain.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
-=======
-        <entry file="file://$PROJECT_DIR$/dao-api/src/main/java/com/starocto/dao/api/model/mq/UserOthersMQ.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
->>>>>>> 11da339211280c9a0a60e28734d1d8ca62703820
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-<<<<<<< HEAD
-        <entry file="file://$PROJECT_DIR$/dao-server/src/main/resources/applicationContext.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
-=======
-        <entry file="file://$PROJECT_DIR$/dao-api/src/main/java/com/starocto/dao/api/model/mq/UserFollowMQ.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
->>>>>>> 11da339211280c9a0a60e28734d1d8ca62703820
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-<<<<<<< HEAD
-        <entry file="file://$PROJECT_DIR$/dao-api/src/main/java/com/starocto/dao/api/model/resp/BlogInfoResp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
-=======
         <entry file="file://$PROJECT_DIR$/dao-db/src/main/java/com/starocto/dao/db/mapper/WeiboDataMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
-              <caret line="30" column="17" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
->>>>>>> 11da339211280c9a0a60e28734d1d8ca62703820
+            <state relative-caret-position="388">
+              <caret line="44" column="55" selection-start-line="44" selection-start-column="55" selection-end-line="44" selection-end-column="55" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -493,15 +143,12 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
-<<<<<<< HEAD
-        <entry file="file://$PROJECT_DIR$/dao-db/pom.xml">
-          <provider editor-type-id="YarmPluginDependencyAnalyzer" />
-          <provider editor-type-id="YarmPluginDependencyUpdater" />
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1691">
-              <caret line="89" column="24" selection-start-line="89" selection-start-column="24" selection-end-line="89" selection-end-column="35" />
-=======
         <entry file="file://$PROJECT_DIR$/dao-db/src/main/java/com/starocto/dao/db/model/UserOthersDO.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="190">
@@ -509,21 +156,11 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
->>>>>>> 11da339211280c9a0a60e28734d1d8ca62703820
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="spring-beans.schema" />
-        <option value="Interface" />
-        <option value="Class" />
-      </list>
-    </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -540,14 +177,8 @@
       <find>@B</find>
       <find>ClassPathMapperScanner</find>
       <find>spring-jdbc</find>
-<<<<<<< HEAD
       <find>com.starocto.dao.db.model</find>
-=======
-      <find>insert</find>
-      <find>indexUserOthersDO</find>
       <find>UserOthersDO</find>
-      <find>zhang</find>
->>>>>>> 11da339211280c9a0a60e28734d1d8ca62703820
     </findStrings>
     <replaceStrings>
       <replace>db</replace>
@@ -563,57 +194,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/dao-api/src/main/java/com/starocto/dao/api/model/resp/UserRegisterInfoResp.java" />
-        <option value="$PROJECT_DIR$/dao-api/src/main/java/com/starocto/dao/api/rpc/RpcConfig.java" />
-        <option value="$PROJECT_DIR$/dao-api/src/main/java/com/starocto/dao/api/model/resp/UserInfoResp.java" />
-        <option value="$PROJECT_DIR$/dao-server/src/main/java/com/starocto/dao/server/rpc/RpcConfig.java" />
-        <option value="$PROJECT_DIR$/dao-api/src/main/java/com/starocto/dao/api/rpc/rpcClientConfig.java" />
-        <option value="$PROJECT_DIR$/dao-api/target/classes/dao-api.xml" />
-        <option value="$PROJECT_DIR$/dao-server/src/main/java/com/starocto/dao/server/rpc/RpcServerConfig.java" />
-        <option value="$PROJECT_DIR$/dao-api/src/main/java/com/starocto/dao/api/rpc/RpcClientConfig.java" />
-        <option value="$PROJECT_DIR$/dao-api/src/main/java/com/starocto/dao/api/test/TestMain.java" />
-        <option value="$PROJECT_DIR$/dao-api/src/main/resources/dao-api.xml" />
-        <option value="$PROJECT_DIR$/dao-db/src/main/resources/db.properties" />
-        <option value="$PROJECT_DIR$/dao-db/src/main/resources/mybatis-config.xml" />
-        <option value="$PROJECT_DIR$/dao-db/src/main/java/com/starocto/dao/db/util/SqlSessionFactoryUtil.java" />
-        <option value="$PROJECT_DIR$/dao-db/pom.xml" />
-        <option value="$PROJECT_DIR$/dao-db/src/main/resources/datasource.xml" />
-        <option value="$PROJECT_DIR$/dao-server/src/test/resources/test-local.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/dao-db/src/main/java/com/starocto/dao/db/model/UserRegisterInfoDO.java" />
-        <option value="$PROJECT_DIR$/dao-db/src/main/java/com/starocto/dao/db/model/UserFollowDO.java" />
-        <option value="$PROJECT_DIR$/dao-db/src/main/java/com/starocto/dao/db/model/BlogInfoDO.java" />
-        <option value="$PROJECT_DIR$/dao-db/src/main/java/com/starocto/dao/db/model/CommentToBlogDO.java" />
-        <option value="$PROJECT_DIR$/dao-api/src/main/java/com/starocto/dao/api/model/resp/CommentToBlogResp.java" />
-        <option value="$PROJECT_DIR$/dao-api/src/main/java/com/starocto/dao/api/model/resp/UserFollowResp.java" />
-        <option value="$PROJECT_DIR$/dao-api/src/main/java/com/starocto/dao/api/model/resp/UserOthersResp.java" />
-        <option value="$PROJECT_DIR$/dao-common/src/main/java/com/starocto/dao/common/utils/BeanUtils.java" />
-        <option value="$PROJECT_DIR$/dao-server/src/main/resources/applicationContext.xml" />
-        <option value="$PROJECT_DIR$/dao-server/src/main/resources/rpc-api.xml" />
-        <option value="$PROJECT_DIR$/dao-api/src/main/java/com/starocto/dao/api/model/mq/UserRegisterInfoMQ.java" />
-        <option value="$PROJECT_DIR$/dao-api/src/main/java/com/starocto/dao/api/model/resp/BlogInfoResp.java" />
-        <option value="$PROJECT_DIR$/dao-api/src/main/java/com/starocto/dao/api/model/resp/BlogCountResp.java" />
-        <option value="$PROJECT_DIR$/dao-api/src/main/java/com/starocto/dao/api/model/mq/BlogCountMQ.java" />
-        <option value="$PROJECT_DIR$/dao-api/src/main/java/com/starocto/dao/api/model/req/UserFollowReq.java" />
-        <option value="$PROJECT_DIR$/dao-index/pom.xml" />
-        <option value="$PROJECT_DIR$/dao-api/src/main/java/com/starocto/dao/api/model/resp/BlogInfoListResp.java" />
-        <option value="$PROJECT_DIR$/dao-api/src/main/java/com/starocto/dao/api/model/req/UserRegisterInfoReq.java" />
-        <option value="$PROJECT_DIR$/dao-api/src/main/java/com/starocto/dao/api/model/mq/UserOthersMQ.java" />
-        <option value="$PROJECT_DIR$/dao-api/src/main/java/com/starocto/dao/api/model/mq/UserFollowMQ.java" />
-        <option value="$PROJECT_DIR$/dao-api/src/main/java/com/starocto/dao/api/model/mq/CommentToBlogMQ.java" />
-        <option value="$PROJECT_DIR$/dao-api/src/main/java/com/starocto/dao/api/model/mq/BlogSeeMQ.java" />
-        <option value="$PROJECT_DIR$/dao-api/src/main/java/com/starocto/dao/api/model/mq/BlogLikeMQ.java" />
-        <option value="$PROJECT_DIR$/dao-api/src/main/java/com/starocto/dao/api/service/WeiboQueryService.java" />
-        <option value="$PROJECT_DIR$/dao-server/src/main/java/com/starocto/dao/server/thrift/WeiboQueryServiceImpl.java" />
-        <option value="$PROJECT_DIR$/dao-db/src/main/java/com/starocto/dao/db/mapper/WeiboDataMapper.java" />
-        <option value="$PROJECT_DIR$/dao-db/src/main/resources/mapper/WeiboDataMapper.xml" />
-        <option value="$PROJECT_DIR$/dao-api/src/main/java/com/starocto/dao/api/model/mq/BlogInfoMQ.java" />
-        <option value="$PROJECT_DIR$/dao-index/src/main/java/com/starocto/dao/index/service/WeiboIndexService.java" />
-        <option value="$PROJECT_DIR$/dao-common/src/main/java/com/starocto/dao/common/utils/DateUtils.java" />
-        <option value="$PROJECT_DIR$/dao-server/src/main/java/com/starocto/dao/server/controller/WeiboQueryController.java" />
-        <option value="$PROJECT_DIR$/dao-db/src/main/java/com/starocto/dao/db/model/UserOthersDO.java" />
-        <option value="$PROJECT_DIR$/dao-index/src/main/java/com/starocto/dao/index/service/impl/WeiboIndexServiceImpl.java" />
-        <option value="$PROJECT_DIR$/dao-server/src/test/java/com/starocto/dao/server/service/ServerTest.java" />
+        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
       </list>
     </option>
   </component>
@@ -629,14 +210,6 @@
     <option name="FILTER_INFO" value="true" />
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHome" value="$USER_HOME$/Documents/apache-maven-3.5.4" />
-        <option name="userSettingsFile" value="$USER_HOME$/.m2/maven-original/settings.xml" />
-      </MavenGeneralSettings>
-    </option>
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
@@ -654,10 +227,6 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
-    <option name="width" value="1440" />
-    <option name="height" value="900" />
-  </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -674,8 +243,6 @@
               <item name="dao" type="b2602c69:ProjectViewProjectNode" />
               <item name="starocto-dao" type="462c0819:PsiDirectoryNode" />
             </path>
-<<<<<<< HEAD
-=======
             <path>
               <item name="dao" type="b2602c69:ProjectViewProjectNode" />
               <item name="starocto-dao" type="462c0819:PsiDirectoryNode" />
@@ -710,38 +277,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="starocto-dao" type="462c0819:PsiDirectoryNode" />
-              <item name="dao-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="starocto-dao" type="462c0819:PsiDirectoryNode" />
-              <item name="dao-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-              <item name="mq" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="starocto-dao" type="462c0819:PsiDirectoryNode" />
-              <item name="dao-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-              <item name="req" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dao" type="b2602c69:ProjectViewProjectNode" />
@@ -903,48 +438,11 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
->>>>>>> 11da339211280c9a0a60e28734d1d8ca62703820
           </expand>
           <select />
         </subPane>
       </pane>
     </panes>
-  </component>
-  <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="UserInfoDO&#9;PSI&#9;JAVA://com.starocto.dao.db.model.UserInfoDO" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-<<<<<<< HEAD
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541685433406" />
-=======
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541948402856" />
->>>>>>> 11da339211280c9a0a60e28734d1d8ca62703820
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Problems" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/dao-server" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.starocto.dao.server.test" />
-      <recent name="com.starocto.dao.server.thrift" />
-      <recent name="com.starocto.dao.db.test" />
-      <recent name="com.starocto.dao.db.util" />
-      <recent name="com.starocto.dao.db.mapper" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/dao-index/src/main/webapp/WEB-INF" />
-      <recent name="$PROJECT_DIR$/dao-index" />
-      <recent name="$PROJECT_DIR$/dao-server/src/main/webapp/WEB-INF/view" />
-      <recent name="$PROJECT_DIR$/dao-server/src/main/resources" />
-      <recent name="$PROJECT_DIR$/dao-db/src/main/resources" />
-    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -958,63 +456,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat Server.tomcat-dao">
-    <configuration name="TestMain (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.starocto.dao.server.test.TestMain" />
-      <module name="dao-server" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.starocto.dao.server.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestMain (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.starocto.dao.api.test.TestMain" />
-      <module name="dao-api" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.starocto.dao.api.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.starocto.dao.db.test.TestMain" />
-      <module name="dao-db" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.starocto.dao.db.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ServerTest.testQueryService" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="dao-server" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.starocto.dao.server.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.starocto.dao.server.service" />
-      <option name="MAIN_CLASS_NAME" value="com.starocto.dao.server.service.ServerTest" />
-      <option name="METHOD_NAME" value="testQueryService" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="tomcat-dao" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.12" ALTERNATIVE_JRE_ENABLED="false">
+  <component name="RunManager">
+    <configuration name="tomcat-master" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.12" ALTERNATIVE_JRE_ENABLED="false">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="dao-server:war">
@@ -1024,7 +467,7 @@
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="Unnamed_dao" />
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_dao_2" />
       </server-settings>
       <predefined_log_file id="Tomcat" enabled="true" />
       <predefined_log_file id="Tomcat Catalina" enabled="true" />
@@ -1032,7 +475,7 @@
       <predefined_log_file id="Tomcat Host Manager" enabled="false" />
       <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="55465" />
+        <option name="DEBUG_PORT" value="59924" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -1086,21 +529,6 @@
         </option>
       </method>
     </configuration>
-    <list>
-      <item itemvalue="Tomcat Server.tomcat-dao" />
-      <item itemvalue="Application.TestMain" />
-      <item itemvalue="Application.TestMain (1)" />
-      <item itemvalue="JUnit.ServerTest.testQueryService" />
-      <item itemvalue="Application.TestMain (2)" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.TestMain (2)" />
-        <item itemvalue="JUnit.ServerTest.testQueryService" />
-        <item itemvalue="Application.TestMain (1)" />
-        <item itemvalue="Application.TestMain" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -1130,54 +558,14 @@
     </task>
     <servers />
   </component>
-  <component name="TestHistory">
-    <history-entry file="ServerTest_testQueryService - 2018.10.14 at 16h 42m 54s.xml">
-      <configuration name="ServerTest.testQueryService" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ServerTest_testQueryService - 2018.10.14 at 16h 44m 10s.xml">
-      <configuration name="ServerTest.testQueryService" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ServerTest_testQueryService - 2018.10.14 at 16h 48m 42s.xml">
-      <configuration name="ServerTest.testQueryService" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ServerTest_testQueryService - 2018.10.15 at 00h 20m 56s.xml">
-      <configuration name="ServerTest.testQueryService" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ServerTest_testQueryService - 2018.10.15 at 23h 29m 07s.xml">
-      <configuration name="ServerTest.testQueryService" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ServerTest_testQueryService - 2018.11.04 at 13h 28m 57s.xml">
-      <configuration name="ServerTest.testQueryService" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ServerTest_testQueryService - 2018.11.04 at 13h 32m 28s.xml">
-      <configuration name="ServerTest.testQueryService" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ServerTest_testQueryService - 2018.11.04 at 13h 34m 29s.xml">
-      <configuration name="ServerTest.testQueryService" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ServerTest_testQueryService - 2018.11.04 at 13h 36m 02s.xml">
-      <configuration name="ServerTest.testQueryService" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ServerTest_testQueryService - 2018.11.04 at 13h 37m 01s.xml">
-      <configuration name="ServerTest.testQueryService" configurationId="JUnit" />
-    </history-entry>
-  </component>
   <component name="TimeTrackingManager">
-<<<<<<< HEAD
-    <option name="totallyTimeSpent" value="71424000" />
-=======
-    <option name="totallyTimeSpent" value="72878000" />
->>>>>>> 11da339211280c9a0a60e28734d1d8ca62703820
+    <option name="totallyTimeSpent" value="453000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
     <editor active="true" />
     <layout>
-<<<<<<< HEAD
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25504324" />
-=======
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25504324" />
->>>>>>> 11da339211280c9a0a60e28734d1d8ca62703820
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -1187,24 +575,16 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32992327" />
-<<<<<<< HEAD
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3529412" />
-=======
-      <window_info anchor="bottom" id="Run" order="2" weight="0.48081842" />
->>>>>>> 11da339211280c9a0a60e28734d1d8ca62703820
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3529412" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39897698" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-<<<<<<< HEAD
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.40025574" />
-=======
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.40025574" />
->>>>>>> 11da339211280c9a0a60e28734d1d8ca62703820
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.40025574" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32894737" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3286445" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Application Servers" order="13" weight="0.32992327" />
       <window_info anchor="bottom" id="Spring" order="14" />
@@ -1216,18 +596,8 @@
       <window_info anchor="right" id="Database" order="5" />
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
-<<<<<<< HEAD
       <window_info anchor="right" id="Maven Projects" order="8" weight="0.32564843" />
-=======
-      <window_info anchor="right" id="Maven Projects" order="8" weight="0.13544668" />
->>>>>>> 11da339211280c9a0a60e28734d1d8ca62703820
     </layout>
-  </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1259,902 +629,36 @@
       </breakpoints>
     </breakpoint-manager>
   </component>
-  <component name="antWorkspaceConfiguration">
-    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
-    <option name="FILTER_TARGETS" value="false" />
-  </component>
-  <component name="debuggerHistoryManager">
-    <expressions id="evaluateExpression">
-      <expression>
-        <expression-string>userOthersDO.getBlogConsumeTime().toString()</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>weiboDataMapper.selectUserInfoDO(userId)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>weiboQueryService.queryUserInfo(1)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-    </expressions>
-  </component>
   <component name="editorHistoryManager">
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/starocto-dao.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dao-api/target/classes/dao-api.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Desktop/it/tools/apache-maven-original/repository/org/springframework/spring-context/4.3.17.RELEASE/spring-context-4.3.17.RELEASE.jar!/org/springframework/remoting/rmi/RmiServiceExporter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dao-api/src/main/java/com/starocto/dao/api/rpc/RpcClientConfig.java" />
-    <entry file="file://$PROJECT_DIR$/dao-common/pom.xml">
-      <provider editor-type-id="YarmPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1368">
-          <caret line="72" column="19" selection-start-line="72" selection-start-column="19" selection-end-line="72" selection-end-column="19" />
-        </state>
-      </provider>
-      <provider editor-type-id="YarmPluginDependencyUpdater" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dao-server/src/main/java/com/starocto/dao/server/rpc/RpcServerConfig.java" />
-    <entry file="file://$PROJECT_DIR$/dao-server/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-=======
-    <entry file="file://$PROJECT_DIR$/dao-server/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
->>>>>>> 11da339211280c9a0a60e28734d1d8ca62703820
-    <entry file="jar://$USER_HOME$/Desktop/it/tools/apache-maven-original/repository/org/mybatis/mybatis-spring/1.2.2/mybatis-spring-1.2.2.jar!/org/mybatis/spring/mapper/ClassPathMapperScanner.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="28" column="35" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-<<<<<<< HEAD
-=======
-    <entry file="file://$PROJECT_DIR$/dao-db/pom.xml">
-      <provider editor-type-id="YarmPluginDependencyAnalyzer" />
-      <provider editor-type-id="YarmPluginDependencyUpdater" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1691">
-          <caret line="89" column="24" selection-start-line="89" selection-start-column="24" selection-end-line="89" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
->>>>>>> 11da339211280c9a0a60e28734d1d8ca62703820
-    <entry file="jar://$USER_HOME$/Desktop/it/tools/apache-maven-original/repository/org/springframework/spring-web/4.3.17.RELEASE/spring-web-4.3.17.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="127" column="30" selection-start-line="127" selection-start-column="30" selection-end-line="127" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/sql/Date.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="42" column="13" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/util/Date.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3116">
-          <caret line="1027" column="29" lean-forward="true" selection-start-line="1027" selection-start-column="29" selection-end-line="1027" selection-end-column="29" />
-<<<<<<< HEAD
-=======
-          <folding>
-            <element signature="docComment;class#Date#0" />
-            <element signature="e#6128#6371#0" />
-            <element signature="e#6445#6816#0" />
-            <element signature="e#6882#7513#0" />
-            <element signature="e#7632#8444#0" />
-            <element signature="e#8585#9475#0" />
-            <element signature="e#8585#10177#0" />
-            <element signature="e#10183#10677#0" />
-            <element signature="e#10757#10805#0" />
-            <element signature="e#10757#11105#0" />
-            <element signature="e#11111#12478#0" />
-            <element signature="e#11111#13399#0" />
-            <element signature="e#13194#13255#0" />
-            <element signature="e#13405#20396#0" />
-            <element signature="e#13405#27315#0" />
-            <element signature="e#28121#28578#0" />
-            <element signature="e#28678#29391#0" />
-            <element signature="e#29513#29999#0" />
-            <element signature="e#30127#30820#0" />
-            <element signature="e#30127#31342#0" />
-            <element signature="e#31348#31929#0" />
-            <element signature="e#32028#32768#0" />
-            <element signature="e#32879#33543#0" />
-            <element signature="e#33662#34201#0" />
-            <element signature="e#34296#34832#0" />
-            <element signature="e#34941#35373#0" />
-            <element signature="e#35472#36021#0" />
-            <element signature="e#36138#36672#0" />
-            <element signature="e#36771#37308#0" />
-            <element signature="e#37425#37691#0" />
-            <element signature="e#37761#37915#0" />
-            <element signature="e#37921#38143#0" />
-            <element signature="e#37921#38233#0" />
-            <element signature="e#38239#38672#0" />
-            <element signature="e#38777#39195#0" />
-            <element signature="e#39299#39949#0" />
-            <element signature="e#40076#40202#0" />
-            <element signature="e#40076#40464#0" />
-            <element signature="e#40470#40977#0" />
-            <element signature="e#40470#41202#0" />
-            <element signature="e#41208#41646#0" />
-            <element signature="e#41208#41758#0" />
-            <element signature="e#41764#43223#0" />
-            <element signature="e#44303#44483#0" />
-            <element signature="e#44303#44710#0" />
-            <element signature="e#44716#45454#0" />
-            <element signature="e#44716#45617#0" />
-            <element signature="e#45623#47036#0" />
-            <element signature="e#45623#47965#0" />
-            <element signature="e#47971#49528#0" />
-            <element signature="e#47971#50051#0" />
-            <element signature="e#50057#50392#0" />
-            <element signature="e#50398#51303#0" />
-            <element signature="e#50735#50795#0" />
-            <element signature="e#50939#50999#0" />
-            <element signature="e#51309#53568#0" />
-            <element signature="e#51741#51801#0" />
-            <element signature="e#53141#53199#0" />
-            <element signature="e#53574#53839#0" />
-            <element signature="e#53574#54012#0" />
-            <element signature="e#54018#54487#0" />
-            <element signature="e#54090#54152#0" />
-            <element signature="e#54493#54734#0" />
-            <element signature="e#54740#54941#0" />
-            <element signature="e#54947#55237#0" />
-            <element signature="e#54947#55364#0" />
-            <element signature="e#55370#55451#0" />
-            <element signature="e#55370#55597#0" />
-            <element signature="e#55603#56536#0" />
-            <element signature="e#55603#56761#0" />
-            <element signature="e#56767#57111#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dao-db/src/main/java/com/starocto/dao/db/util/SqlSessionFactoryUtil.java" />
-    <entry file="file://$PROJECT_DIR$/dao-db/src/main/resources/db.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dao-db/src/main/resources/mybatis-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
->>>>>>> 11da339211280c9a0a60e28734d1d8ca62703820
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dao-db/src/main/resources/datasource.xml">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="266">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-=======
-        <state relative-caret-position="399">
-          <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dao-server/src/test/resources/test-local.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider editor-type-id="YarmPluginDependencyAnalyzer" />
-      <provider editor-type-id="YarmPluginDependencyUpdater" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="27" column="60" selection-start-line="27" selection-start-column="60" selection-end-line="27" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dao-api/src/main/resources/dao-api.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dao-api/src/main/java/com/starocto/dao/api/test/TestMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
->>>>>>> 11da339211280c9a0a60e28734d1d8ca62703820
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dao-server/src/main/resources/rpc-exporter.xml">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="399">
-          <caret line="21" column="23" lean-forward="true" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
-=======
-        <state relative-caret-position="114">
-          <caret line="6" column="85" selection-start-line="6" selection-start-column="85" selection-end-line="6" selection-end-column="92" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dao-server/src/main/resources/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dao-server/src/main/resources/spring-servlet.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="14" column="69" selection-start-line="14" selection-start-column="69" selection-end-line="14" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dao-api/src/main/java/com/starocto/dao/api/model/resp/UserRegisterInfoResp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="27" lean-forward="true" selection-start-line="19" selection-start-column="25" selection-end-line="22" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
->>>>>>> 11da339211280c9a0a60e28734d1d8ca62703820
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dao-api/src/main/java/com/starocto/dao/api/model/resp/UserFollowResp.java">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="266">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-=======
-        <state relative-caret-position="437">
-          <caret line="23" selection-start-line="16" selection-end-line="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
->>>>>>> 11da339211280c9a0a60e28734d1d8ca62703820
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dao-server/pom.xml">
-      <provider editor-type-id="YarmPluginDependencyAnalyzer" />
-      <provider editor-type-id="YarmPluginDependencyUpdater" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="563">
-          <caret line="36" selection-start-line="23" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dao-index/pom.xml">
-      <provider editor-type-id="YarmPluginDependencyAnalyzer" />
-      <provider editor-type-id="YarmPluginDependencyUpdater" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="580">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dao-db/src/main/java/com/starocto/dao/db/model/UserFollowDO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dao-api/src/main/java/com/starocto/dao/api/model/mq/BlogSeeMQ.java">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="361">
-          <caret line="19" column="32" lean-forward="true" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
-=======
-        <state relative-caret-position="266">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
->>>>>>> 11da339211280c9a0a60e28734d1d8ca62703820
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dao-api/src/main/java/com/starocto/dao/api/model/mq/BlogLikeMQ.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="25" lean-forward="true" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dao-api/src/main/java/com/starocto/dao/api/model/resp/CommentToBlogResp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dao-api/src/main/java/com/starocto/dao/api/service/WeiboQueryService.java">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="247">
-          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dao-db/src/main/java/com/starocto/dao/db/model/CommentToBlogDO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
-=======
-        <state relative-caret-position="219">
-          <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dao-api/src/main/java/com/starocto/dao/api/model/resp/UserInfoResp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
->>>>>>> 11da339211280c9a0a60e28734d1d8ca62703820
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/dao-db/src/main/java/com/starocto/dao/db/model/UserFollowDO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-=======
-    <entry file="file://$PROJECT_DIR$/dao-api/src/main/java/com/starocto/dao/api/model/resp/BlogInfoResp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="531">
-          <caret line="32" column="36" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
->>>>>>> 11da339211280c9a0a60e28734d1d8ca62703820
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/dao-db/src/main/java/com/starocto/dao/db/model/UserOthersDO.java">
-=======
-    <entry file="file://$PROJECT_DIR$/dao-api/src/main/java/com/starocto/dao/api/model/resp/BlogCountResp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dao-api/src/main/java/com/starocto/dao/api/model/req/UserRegisterInfoReq.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dao-db/src/main/java/com/starocto/dao/db/model/BlogCountDO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dao-db/src/main/java/com/starocto/dao/db/model/UserRegisterInfoDO.java">
->>>>>>> 11da339211280c9a0a60e28734d1d8ca62703820
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/dao-db/src/main/java/com/starocto/dao/db/util/SqlSessionFactoryUtil.java" />
-    <entry file="file://$PROJECT_DIR$/dao-server/src/test/resources/test-local.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dao-index/pom.xml">
-      <provider editor-type-id="YarmPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="26" lean-forward="true" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
-=======
-    <entry file="file://$PROJECT_DIR$/dao-db/src/main/java/com/starocto/dao/db/model/UserInfoDO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dao-api/src/main/java/com/starocto/dao/api/model/mq/BlogInfoMQ.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="487">
-          <caret line="29" column="32" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dao-common/src/main/java/com/starocto/dao/common/utils/BeanUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="535">
-          <caret line="29" column="20" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
->>>>>>> 11da339211280c9a0a60e28734d1d8ca62703820
-        </state>
-      </provider>
-      <provider editor-type-id="YarmPluginDependencyUpdater" />
-    </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/dao-server/pom.xml">
-      <provider editor-type-id="YarmPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
-=======
-    <entry file="file://$PROJECT_DIR$/dao-db/src/main/java/com/starocto/dao/db/model/BlogInfoDO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
->>>>>>> 11da339211280c9a0a60e28734d1d8ca62703820
-        </state>
-      </provider>
-      <provider editor-type-id="YarmPluginDependencyUpdater" />
-    </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/dao-api/pom.xml">
-      <provider editor-type-id="YarmPluginDependencyAnalyzer" />
-=======
-    <entry file="file://$PROJECT_DIR$/dao-api/src/main/java/com/starocto/dao/api/model/mq/UserOthersMQ.java">
->>>>>>> 11da339211280c9a0a60e28734d1d8ca62703820
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="39" lean-forward="true" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
-        </state>
-      </provider>
-      <provider editor-type-id="YarmPluginDependencyUpdater" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dao-server/src/main/resources/rpc-exporter.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="53" selection-start-line="8" selection-start-column="53" selection-end-line="8" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dao-server/src/main/java/com/starocto/dao/server/thrift/WeiboQueryServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="17" lean-forward="true" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/dao-server/src/main/java/com/starocto/dao/server/controller/WeiboQueryController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="28" column="39" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dao-index/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-=======
-    <entry file="file://$PROJECT_DIR$/dao-api/src/main/java/com/starocto/dao/api/model/mq/UserFollowMQ.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
->>>>>>> 11da339211280c9a0a60e28734d1d8ca62703820
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dao-api/src/main/java/com/starocto/dao/api/model/mq/CommentToBlogMQ.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/dao-db/src/main/java/com/starocto/dao/db/model/BlogInfoDO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-=======
-    <entry file="file://$PROJECT_DIR$/dao-db/src/main/java/com/starocto/dao/db/model/CommentToBlogDO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
->>>>>>> 11da339211280c9a0a60e28734d1d8ca62703820
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/dao-db/src/main/java/com/starocto/dao/db/model/UserInfoDO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="23" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="23" />
-=======
-    <entry file="file://$PROJECT_DIR$/dao-common/src/main/java/com/starocto/dao/common/utils/DateUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
->>>>>>> 11da339211280c9a0a60e28734d1d8ca62703820
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dao-db/src/main/java/com/starocto/dao/db/mapper/WeiboDataMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="570">
-          <caret line="30" column="30" lean-forward="true" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Desktop/it/tools/apache-maven-original/repository/org/mybatis/mybatis-spring/1.3.0/mybatis-spring-1.3.0.jar!/org/mybatis/spring/SqlSessionFactoryBean.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="41" column="13" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Desktop/it/tools/apache-maven-original/repository/org/apache/commons/commons-dbcp2/2.5.0/commons-dbcp2-2.5.0.jar!/org/apache/commons/dbcp2/BasicDataSource.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="41" column="13" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dao-api/src/main/resources/dao-api.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dao-db/src/main/resources/db.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dao-db/src/main/resources/mapper/WeiboDataMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2052">
-          <caret line="108" selection-start-line="108" selection-end-line="108" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dao-common/src/main/java/com/starocto/dao/common/utils/BeanUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="29" column="20" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
-=======
-        <state relative-caret-position="257">
-          <caret line="58" column="50" selection-start-line="58" selection-start-column="50" selection-end-line="58" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#828#829#0" expanded="true" />
-            <element signature="e#885#886#0" expanded="true" />
-            <element signature="e#1849#1850#0" expanded="true" />
-            <element signature="e#1906#1907#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dao-api/src/main/java/com/starocto/dao/api/model/resp/BlogInfoListResp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
->>>>>>> 11da339211280c9a0a60e28734d1d8ca62703820
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dao-index/src/main/java/com/starocto/dao/index/service/WeiboIndexService.java">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="266">
-          <caret line="14" column="69" selection-start-line="14" selection-start-column="69" selection-end-line="14" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dao-db/src/main/resources/mybatis-config.xml">
-=======
-        <state relative-caret-position="417">
-          <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dao-db/src/main/resources/mapper/WeiboDataMapper.xml">
->>>>>>> 11da339211280c9a0a60e28734d1d8ca62703820
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="63" column="58" selection-start-line="63" selection-start-column="58" selection-end-line="63" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dao-db/src/main/java/com/starocto/dao/db/mapper/WeiboDataMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="228">
-          <caret line="20" column="39" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
-=======
-        <state relative-caret-position="201">
-          <caret line="30" column="17" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
->>>>>>> 11da339211280c9a0a60e28734d1d8ca62703820
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/dao-server/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
-=======
-    <entry file="file://$PROJECT_DIR$/dao-api/src/main/java/com/starocto/dao/api/model/resp/UserOthersResp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
->>>>>>> 11da339211280c9a0a60e28734d1d8ca62703820
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dao-db/src/main/resources/datasource.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dao-db/src/main/java/com/starocto/dao/db/model/BlogCountDO.java">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="209">
-          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dao-api/src/main/java/com/starocto/dao/api/test/TestMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
-=======
-        <state relative-caret-position="352">
-          <caret line="96" column="18" selection-start-line="96" selection-start-column="18" selection-end-line="96" selection-end-column="18" />
->>>>>>> 11da339211280c9a0a60e28734d1d8ca62703820
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/dao-server/src/main/resources/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dao-api/src/main/java/com/starocto/dao/api/model/resp/BlogInfoResp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
-=======
-    <entry file="file://$PROJECT_DIR$/dao-db/src/main/java/com/starocto/dao/db/model/UserOthersDO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
->>>>>>> 11da339211280c9a0a60e28734d1d8ca62703820
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/dao-db/pom.xml">
-      <provider editor-type-id="YarmPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1691">
-          <caret line="89" column="24" selection-start-line="89" selection-start-column="24" selection-end-line="89" selection-end-column="35" />
-=======
     <entry file="file://$PROJECT_DIR$/dao-server/src/test/java/com/starocto/dao/server/service/ServerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="634">
+        <state relative-caret-position="519">
           <caret line="51" selection-start-line="51" selection-end-line="51" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
->>>>>>> 11da339211280c9a0a60e28734d1d8ca62703820
         </state>
       </provider>
-      <provider editor-type-id="YarmPluginDependencyUpdater" />
     </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider editor-type-id="YarmPluginDependencyAnalyzer" />
+    <entry file="file://$PROJECT_DIR$/dao-common/src/main/java/com/starocto/dao/common/utils/DateUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="27" column="60" selection-start-line="27" selection-start-column="60" selection-end-line="27" selection-end-column="60" />
-=======
-    <entry file="file://$PROJECT_DIR$/dao-index/src/main/java/com/starocto/dao/index/service/impl/WeiboIndexServiceImpl.java">
+        <state relative-caret-position="209">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dao-db/src/main/java/com/starocto/dao/db/mapper/WeiboDataMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
+        <state relative-caret-position="388">
+          <caret line="44" column="55" selection-start-line="44" selection-start-column="55" selection-end-line="44" selection-end-column="55" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#indexBlogInfoDO#0;class#WeiboIndexServiceImpl#0" />
-            <element signature="method#indexCommentToBlogDO#0;class#WeiboIndexServiceImpl#0" />
-            <element signature="method#indexUserOthersDO#0;class#WeiboIndexServiceImpl#0" />
-            <element signature="method#indexUserRegisterInfoDO#0;class#WeiboIndexServiceImpl#0" />
           </folding>
->>>>>>> 11da339211280c9a0a60e28734d1d8ca62703820
         </state>
       </provider>
-      <provider editor-type-id="YarmPluginDependencyUpdater" />
     </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <last-edited>starocto-dao:war</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.5" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>Web</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>starocto-dao</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>Maven: junit:junit:4.11</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
   </component>
 </project>
