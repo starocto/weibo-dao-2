@@ -9,7 +9,6 @@ import com.starocto.dao.common.utils.DateUtils;
 import com.starocto.dao.db.mapper.WeiboDataMapper;
 import com.starocto.dao.db.model.*;
 import com.starocto.dao.index.service.WeiboIndexService;
-import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
