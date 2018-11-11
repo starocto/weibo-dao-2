@@ -41,7 +41,7 @@ public class ServerTest {
         List<UserFollowResp> userFanResps = weiboQueryService.queryFans(2);
         System.out.println(userFanResps);
 
-        List<BlogInfoResp> blogInfoResps = weiboQueryService.queryBlogInfo(1);
+        BlogInfoListResp blogInfoResps = weiboQueryService.queryBlogInfo(1);
         System.out.println(blogInfoResps);
 
         BlogCountResp blogCountResp = weiboQueryService.queryBlogCount(1);
