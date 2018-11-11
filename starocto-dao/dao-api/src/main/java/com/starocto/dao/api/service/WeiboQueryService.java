@@ -15,7 +15,7 @@ public interface WeiboQueryService {
 
     BlogCountResp queryBlogCount(long blogId);
 
-    List<BlogInfoResp> queryBlogInfo(int userId);
+    BlogInfoListResp queryBlogInfo(int userId);
 
     List<CommentToBlogResp> queryCommentToBlog(long blogId);
 

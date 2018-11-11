@@ -32,15 +32,22 @@ public class WeiboQueryServiceImpl implements WeiboQueryService {
     }
 
     @Override
-    public List<BlogInfoResp> queryBlogInfo(int userId){
+    public BlogInfoListResp queryBlogInfo(int userId){
         List<BlogInfoDO> blogInfoDOS = weiboDataMapper.selectBlogInfoDO(userId);
-        return blogInfoDOS.stream()
+        BlogInfoListResp result = new BlogInfoListResp();
+        List<BlogInfoResp> blogInfoResps = blogInfoDOS.stream()
                 .map(e -> {
                     BlogInfoResp resp = BeanUtils.propertiesCopy(e, new BlogInfoResp());
                     resp.setBlogPlusTime(e.getBlogPlusTime().toString());
+                    resp.setCommentList(this.queryCommentToBlog(e.getBlogId()));
                     return resp;
                 })
                 .collect(Collectors.toList());
+        result.setBlogInfoRespList(blogInfoResps);
+        // 这里存在问题，要对返回的微博消息列表进行时间上的排序，并且这里要注意 判空
+        result.setNearTime(blogInfoResps.get(0).getBlogPlusTime());
+        result.setFarTime(blogInfoResps.get(blogInfoResps.size() - 1).getBlogPlusTime());
+        return result;
     }
 
     @Override

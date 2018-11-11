@@ -55,7 +55,7 @@ public class WeiboQueryController {
 
     @ResponseBody
     @RequestMapping(value = "/dao/blog/info", method = RequestMethod.GET)
-    public List<BlogInfoResp> queryBlogInfo(){
+    public BlogInfoListResp queryBlogInfo(){
         return weiboQueryService.queryBlogInfo(1);
     }
 

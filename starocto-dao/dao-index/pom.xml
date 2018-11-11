@@ -21,6 +21,20 @@
     </properties>
 
     <dependencies>
+        <!--模块-->
+        <dependency>
+            <groupId>com.starocto</groupId>
+            <artifactId>dao-api</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.starocto</groupId>
+            <artifactId>dao-db</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.starocto</groupId>
+            <artifactId>dao-common</artifactId>
+        </dependency>
+
         <!--注解-->
         <dependency>
             <groupId>junit</groupId>
