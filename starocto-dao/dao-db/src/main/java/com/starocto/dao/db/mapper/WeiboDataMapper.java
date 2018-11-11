@@ -10,7 +10,9 @@ import java.util.List;
  * Date   : 2018/10/3
  * Time   : 12:50
  * ---------------------------------------
- * Desc   :
+ * Desc   : 微博消息，突然发现这里其实是朋友圈的机制，即只能获取关注的人的消息。
+ *          如果想处理"发现"页面的微博消息内容，需要selectBlogInfoDO()方法忽略入参userId才行，需要修改SQL语句。
+ *          另外，需要添加 查询的开始时间和结束时间。
  */
 public interface WeiboDataMapper {
 
@@ -29,6 +31,8 @@ public interface WeiboDataMapper {
     UserOthersDO selectUserOthersDO(@Param("userId") int userId);
 
     UserRegisterInfoDO selectUserRegisterInfoDO(@Param("userName") String userName);
+
+    List<UserRegisterInfoDO> selectAllUserRegisterInfoDO(@Param("userName") List<String> userName);
 
     void insertBlogCountDO(List<BlogCountDO> blogCountDO);
 

@@ -22,7 +22,7 @@
         VALUES
         <foreach collection="list" index="index" item="item" separator=",">
             (#{item.userName}, #{item.userPsw}, #{item.userPhone},#{item.userEmail},
-            #{item.userRegisteredTime},#{item.userChangeTime})
+            NOW(),NOW())
         </foreach>
     </insert>
 
@@ -34,6 +34,16 @@
         <where>
             user_name = #{userName}
         </where>
+    </select>
+    <select id="selectAllUserRegisterInfoDO" parameterType="list" resultType="com.starocto.dao.db.model.UserRegisterInfoDO">
+        SELECT
+        <include refid="t1_all_field"/>
+        FROM
+        <include refid="t1_user_register_info"/>
+        WHERE user_name IN
+        <foreach collection="list" item="item" index="index" open="(" separator="," close=")">
+            #{item}
+        </foreach>
     </select>
 
 
