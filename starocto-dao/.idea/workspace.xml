@@ -6,61 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aca7a669-51ca-489d-8ae5-8694f20672c9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/dao-api/src/main/java/com/starocto/dao/api/model/mq/BlogInfoMQ.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dao-api/src/main/java/com/starocto/dao/api/model/mq/BlogLikeMQ.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dao-api/src/main/java/com/starocto/dao/api/model/mq/BlogSeeMQ.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dao-api/src/main/java/com/starocto/dao/api/model/mq/CommentToBlogMQ.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dao-api/src/main/java/com/starocto/dao/api/model/mq/UserFollowMQ.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dao-api/src/main/java/com/starocto/dao/api/model/mq/UserOthersMQ.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dao-api/src/main/java/com/starocto/dao/api/model/req/UserRegisterInfoReq.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dao-api/src/main/java/com/starocto/dao/api/model/resp/BlogInfoListResp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dao-common/src/main/java/com/starocto/dao/common/utils/DateUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dao-index/src/main/java/com/starocto/dao/index/service/WeiboIndexService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dao-index/src/main/java/com/starocto/dao/index/service/impl/WeiboIndexServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dao-api/src/main/java/com/starocto/dao/api/model/resp/BlogCountResp.java" beforeDir="false" afterPath="$PROJECT_DIR$/dao-api/src/main/java/com/starocto/dao/api/model/resp/BlogCountResp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dao-api/src/main/java/com/starocto/dao/api/model/resp/BlogInfoResp.java" beforeDir="false" afterPath="$PROJECT_DIR$/dao-api/src/main/java/com/starocto/dao/api/model/resp/BlogInfoResp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dao-api/src/main/java/com/starocto/dao/api/service/WeiboQueryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/dao-api/src/main/java/com/starocto/dao/api/service/WeiboQueryService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dao-api/target/classes/com/starocto/dao/api/model/resp/BlogCountResp.class" beforeDir="false" afterPath="$PROJECT_DIR$/dao-api/target/classes/com/starocto/dao/api/model/resp/BlogCountResp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dao-api/target/classes/com/starocto/dao/api/model/resp/BlogInfoResp.class" beforeDir="false" afterPath="$PROJECT_DIR$/dao-api/target/classes/com/starocto/dao/api/model/resp/BlogInfoResp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dao-api/target/classes/com/starocto/dao/api/service/WeiboQueryService.class" beforeDir="false" afterPath="$PROJECT_DIR$/dao-api/target/classes/com/starocto/dao/api/service/WeiboQueryService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dao-api/target/classes/com/starocto/dao/api/test/TestMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/dao-api/target/classes/com/starocto/dao/api/test/TestMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dao-api/target/dao-api.jar" beforeDir="false" afterPath="$PROJECT_DIR$/dao-api/target/dao-api.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dao-api/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/dao-api/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dao-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/dao-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dao-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/dao-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dao-common/target/dao-common.jar" beforeDir="false" afterPath="$PROJECT_DIR$/dao-common/target/dao-common.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dao-common/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/dao-common/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dao-common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/dao-common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dao-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/dao-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dao-db/src/main/java/com/starocto/dao/db/mapper/WeiboDataMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/dao-db/src/main/java/com/starocto/dao/db/mapper/WeiboDataMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dao-db/src/main/resources/mapper/WeiboDataMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dao-db/src/main/resources/mapper/WeiboDataMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dao-db/target/classes/com/starocto/dao/db/mapper/WeiboDataMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/dao-db/target/classes/com/starocto/dao/db/mapper/WeiboDataMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dao-db/target/classes/mapper/WeiboDataMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dao-db/target/classes/mapper/WeiboDataMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dao-db/target/dao-db.jar" beforeDir="false" afterPath="$PROJECT_DIR$/dao-db/target/dao-db.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dao-db/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/dao-db/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dao-db/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/dao-db/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dao-index/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dao-index/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dao-index/target/dao-index.war" beforeDir="false" afterPath="$PROJECT_DIR$/dao-index/target/dao-index.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dao-server/src/main/java/com/starocto/dao/server/controller/WeiboQueryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/dao-server/src/main/java/com/starocto/dao/server/controller/WeiboQueryController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dao-server/src/main/java/com/starocto/dao/server/thrift/WeiboQueryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/dao-server/src/main/java/com/starocto/dao/server/thrift/WeiboQueryServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dao-server/src/test/java/com/starocto/dao/server/service/ServerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/dao-server/src/test/java/com/starocto/dao/server/service/ServerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dao-server/target/classes/com/starocto/dao/server/controller/WeiboQueryController.class" beforeDir="false" afterPath="$PROJECT_DIR$/dao-server/target/classes/com/starocto/dao/server/controller/WeiboQueryController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dao-server/target/classes/com/starocto/dao/server/thrift/WeiboQueryServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/dao-server/target/classes/com/starocto/dao/server/thrift/WeiboQueryServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dao-server/target/dao-server.war" beforeDir="false" afterPath="$PROJECT_DIR$/dao-server/target/dao-server.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dao-server/target/dao-server/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dao-server/target/dao-server/WEB-INF/classes/com/starocto/dao/server/controller/WeiboQueryController.class" beforeDir="false" afterPath="$PROJECT_DIR$/dao-server/target/dao-server/WEB-INF/classes/com/starocto/dao/server/controller/WeiboQueryController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dao-server/target/dao-server/WEB-INF/classes/com/starocto/dao/server/thrift/WeiboQueryServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/dao-server/target/dao-server/WEB-INF/classes/com/starocto/dao/server/thrift/WeiboQueryServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dao-server/target/dao-server/WEB-INF/lib/dao-api-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/dao-server/target/dao-server/WEB-INF/lib/dao-api-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dao-server/target/dao-server/WEB-INF/lib/dao-common-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/dao-server/target/dao-server/WEB-INF/lib/dao-common-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dao-server/target/dao-server/WEB-INF/lib/dao-db-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/dao-server/target/dao-server/WEB-INF/lib/dao-db-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dao-server/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/dao-server/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dao-server/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/dao-server/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dao-server/target/surefire-reports/TEST-com.starocto.dao.server.service.ServerTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dao-server/target/surefire-reports/TEST-com.starocto.dao.server.service.ServerTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dao-server/target/surefire-reports/com.starocto.dao.server.service.ServerTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/dao-server/target/surefire-reports/com.starocto.dao.server.service.ServerTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dao-server/target/test-classes/com/starocto/dao/server/service/ServerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/dao-server/target/test-classes/com/starocto/dao/server/service/ServerTest.class" afterDir="false" />
-    </list>
+    <list default="true" id="aca7a669-51ca-489d-8ae5-8694f20672c9" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/dao-common/target/" />
@@ -323,11 +269,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dao-server/src/test/java/com/starocto/dao/server/service/ServerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="44" column="42" selection-start-line="44" selection-start-column="42" selection-end-line="44" selection-end-column="42" />
+            <state relative-caret-position="634">
+              <caret line="51" selection-start-line="51" selection-end-line="51" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -347,15 +293,17 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dao-index/src/main/java/com/starocto/dao/index/service/impl/WeiboIndexServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="77" column="48" selection-start-line="77" selection-start-column="48" selection-end-line="77" selection-end-column="48" />
+            <state relative-caret-position="223">
+              <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#indexBlogInfoDO#0;class#WeiboIndexServiceImpl#0" />
                 <element signature="method#indexCommentToBlogDO#0;class#WeiboIndexServiceImpl#0" />
+                <element signature="method#indexUserOthersDO#0;class#WeiboIndexServiceImpl#0" />
+                <element signature="method#indexUserRegisterInfoDO#0;class#WeiboIndexServiceImpl#0" />
               </folding>
             </state>
           </provider>
@@ -450,6 +398,7 @@
       <find>insert</find>
       <find>indexUserOthersDO</find>
       <find>UserOthersDO</find>
+      <find>zhang</find>
     </findStrings>
     <replaceStrings>
       <replace>db</replace>
@@ -813,7 +762,7 @@
     <property name="SearchEverywhereHistoryKey" value="UserInfoDO&#9;PSI&#9;JAVA://com.starocto.dao.db.model.UserInfoDO" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541936119692" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541948097305" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -1055,10 +1004,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71905000" />
+    <option name="totallyTimeSpent" value="72878000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25504324" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -1070,14 +1020,14 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32992327" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.48081842" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.48081842" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39897698" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.40025574" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.40025574" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32894737" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
@@ -1091,7 +1041,7 @@
       <window_info anchor="right" id="Database" order="5" />
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Maven Projects" order="8" visible="true" weight="0.13544668" />
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.13544668" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1669,24 +1619,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dao-index/src/main/java/com/starocto/dao/index/service/impl/WeiboIndexServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/dao-server/src/test/java/com/starocto/dao/server/service/ServerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="77" column="48" selection-start-line="77" selection-start-column="48" selection-end-line="77" selection-end-column="48" />
+        <state relative-caret-position="634">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#indexBlogInfoDO#0;class#WeiboIndexServiceImpl#0" />
-            <element signature="method#indexCommentToBlogDO#0;class#WeiboIndexServiceImpl#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dao-server/src/test/java/com/starocto/dao/server/service/ServerTest.java">
+    <entry file="file://$PROJECT_DIR$/dao-index/src/main/java/com/starocto/dao/index/service/impl/WeiboIndexServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="44" column="42" selection-start-line="44" selection-start-column="42" selection-end-line="44" selection-end-column="42" />
+        <state relative-caret-position="223">
+          <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#indexBlogInfoDO#0;class#WeiboIndexServiceImpl#0" />
+            <element signature="method#indexCommentToBlogDO#0;class#WeiboIndexServiceImpl#0" />
+            <element signature="method#indexUserOthersDO#0;class#WeiboIndexServiceImpl#0" />
+            <element signature="method#indexUserRegisterInfoDO#0;class#WeiboIndexServiceImpl#0" />
           </folding>
         </state>
       </provider>

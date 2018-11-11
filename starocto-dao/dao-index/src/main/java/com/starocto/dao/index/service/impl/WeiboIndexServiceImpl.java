@@ -34,6 +34,7 @@ public class WeiboIndexServiceImpl implements WeiboIndexService {
     @Override
     public void indexBlogCountDO(List<BlogCountDO> blogCountDO){
 
+
     }
 
     @Override
